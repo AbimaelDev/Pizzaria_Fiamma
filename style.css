@@ -23,7 +23,10 @@ header{
     align-items: center;
     padding: 0 30px;
     padding-bottom: 10px;
+}
 
+.logo img{
+    width: 30px;
 }
 
 nav{
@@ -43,7 +46,7 @@ nav{
     justify-content: space-around;
 }
 
-a{
+.header-link{
     text-decoration: none;
     color: #BC502A;
     font-weight: 500;
@@ -52,8 +55,20 @@ a{
     transition: all 0.3s ease;
 }
 
-a:hover{
+.header-link:hover{
     color: #F0EBDB;
     background-color: #BC502A;
     border-radius: 5px;
 }
+
+aside{
+    display: flex;
+    width: 20%;
+    height: 100vh;
+    padding: 20px;
+    background-color: #F0EBDB;
+}
+
+
+
+
